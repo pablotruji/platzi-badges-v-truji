@@ -1,11 +1,11 @@
 {
-  "name": "platzi-badges",
+  "name": "platzi-badges-v-truji",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pablotruji.github.io/ileproyecto",
-"scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+  "homepage": "http://pablotruji.github.io/platzi-badges-v-truji",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm-run-all -p client server",
     "client": "react-scripts start",
     "server": "json-server --port 3001 --watch server/db.json",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.2",
+    "gh-pages": "^3.2.3",
     "md5": "^2.3.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",
